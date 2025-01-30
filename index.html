@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eldie Ignacio Jr.</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script src="https://kit.fontawesome.com/e30bc396fb.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <section class="w-full min-h-screen max-h-auto bg-[#1A1A1A]">
+      <header class="w-full p-2  sm:bg-[#1A1A1A] sm:fixed sm:z-40 sm:top-0" id="navbar">
+        <nav
+          class="w-full flex justify-between py-5 px-42 shadow-lg sm:px-3 md:px-5 lg:px-5"
+        >
+          <div class="text-white">
+            <h1 class="text-2xl uppercase font-bold">portfolio</h1>
+          </div>
+          <ul class="flex justify-center gap-5 text-white sm:hidden md:flex">
+            <li class="px-3 flex items-center justify-center hover:bg-[#4635B1] hover:rounded"><a href="#profile">Profile</a></li>
+            <li class="px-3 flex items-center justify-center hover:bg-[#4635B1] hover:rounded"><a href="#skill-set">Skills</a></li>
+            <li class="px-3 flex items-center justify-center hover:bg-[#4635B1] hover:rounded"><a href="#education">Education</a></li>
+            <li class="px-3 flex items-center justify-center hover:bg-[#4635B1] hover:rounded"><a href="#project">Project</a></li>
+          </ul>
+          <div class="relative h-auto w-auto sm:block lg:hidden">
+            <i id="open-sidebar" class="fa-solid fa-bars text-[#ffffff] text-2xl"></i>
+          </div>
+        </nav>
+      </header>
+
+      <div class="sidebar">
+        <div
+          class="sidebar-menu"
+        >
+          <div
+            class="absolute right-5 top-5 text-black z-10"
+          >
+          <i id="close-sidebar" class="fa-solid fa-xmark text-2xl"></i>
+          </div>
+          <ul class="flex flex-col gap-5">
+            <li id="close-sidebar" class="text-xl text-wt p-2 rounded active">
+              <a href="#profile">Profile</a>
+            </li>
+            <li id="close-sidebar" class="text-xl p-2 rounded">
+              <a href="#skill-set">Skills</a>
+            </li>
+            <li id="close-sidebar" class="text-xl p-2 rounded">
+              <a href="#education">Education</a>
+            </li>
+            <li id="close-sidebar" class="text-xl p-2 rounded">
+              <a href="#project">Project</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <main class="w-full h-screen">
+        <div
+          class="w-full h-full flex justify-center items-center relative bg-[#1A1A1A] sm:overflow-hidden"
+        >
+          <div
+            id="particles"
+            class="absolute left-0 top-0 w-full h-ful"
+            l
+          ></div>
+          <div  data-aos="fade-up" class="relative h-full">
+            <div
+              class="absolute left-0 top-35 px-4 py-2 z-10 flex flex-col gap-4 sm:top-140 sm:left-15 md:top-35"
+            >
+              <div>
+                <h1 class="text-4xl text-white capitalize font-bold">
+                  Hi, I'm
+                </h1>
+                <h1 class="text-4xl text-white capitalize font-bold">
+                  Eldie G. Ignacio Jr.
+                </h1>
+                <p class="text-2xl text-[#344CB7] capitalize">
+                  front end web developer
+                </p>
+              </div>
+              <div class="w-full grid grid-cols-3 gap-1">
+                <a class="p-1 text-white" href="#"
+                  ><i class="fa-brands fa-github-alt text-[#344CB7]"></i>
+                Github</a
+              >
+                <a class="p-1 text-white" href="#"
+                  >
+                <i class="fa-brands fa-linkedin text-[#344CB7]"></i>
+                  Linkedin</a
+                >
+                <a class="p-1 text-white" href="#"
+                >
+                <i class="fa-brands fa-square-instagram text-[#344CB7]"></i>
+                  Instagram</a
+                >
+              </div>
+              <div class="flex items-center justify-start">
+                <button
+                  class="py-1 px-2 text-white rounded-md bg-[#4635B1] border-2 border-[#4635B1] z-40 cursor-pointer"
+                >
+                  Download CV
+                </button>
+              </div>
+            </div>
+            <img
+              class="w-full h-full object-contain sm:object-cover"
+              src="./assets/images/picko.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div
+          id="profile"
+          class="h-auto flex justify-center items-center p-10 sm:overflow-hidden"
+        >
+          <div
+            class="w-5xl rounded p-5 sm:w-full md:w-5xl"
+          >
+            <div
+              class="grid grid-cols-2 w-full sm:flex-col sm:flex lg:grid lg:grid-cols-2"
+            >
+              <div>
+                <img
+                  class="w-full h-full object-cover sm:hidden md:hidden lg:block"
+                  src="./assets/images/mukako.jpg"
+                  alt=""
+                />
+              </div>
+              <div data-aos="fade-left" class="p-5">
+                <h1 class="text-center text-2xl uppercase font-bold mb-3">
+                  Profile
+                </h1>
+                <p class="text-justify">
+                  I'm a <span class="font-bold">third-year student</span> at the
+                  University of Caloocan City, South Campus, where I'm working
+                  toward an information technology degree. I'm
+                  <span class="font-bold"
+                    >excited to improve my abilities in pertinent domains</span
+                  >
+                  and have a strong desire to learn and advance both
+                  professionally and intellectually. I am
+                  <span class="font-bold"
+                    >committed to applying my knowledge</span
+                  >
+                  and gaining practical experience
+                  <span class="font-bold"
+                    >to make meaningful contributions in real-world
+                    situations,</span
+                  >
+                  driven by my strong desire to succeed.
+                </p>
+                <hr class="my-3 text-[#ccc]" />
+                <h1 class="text-md uppercase font-bold mb-2">
+                  Personal Information
+                </h1>
+                <div class="grid grid-cols-2 gap-15 mb-2">
+                  <div class="mb-2">
+                    <div>
+                      <h1 class="font-bold">Birthday</h1>
+                      <p>August 26, 2003</p>
+                    </div>
+                    <div>
+                      <h1 class="font-bold">Year Level</h1>
+                      <p>Third year college student</p>
+                    </div>
+                    <div>
+                      <h1 class="font-bold">University</h1>
+                      <p>University of Caloocan City South Campus</p>
+                    </div>
+                  </div>
+
+                  <div class="mb-2">
+                    <div>
+                      <h1 class="font-bold">Email</h1>
+                      <p>ignacioeldiejr.bsit@gmail.com</p>
+                    </div>
+                    <div>
+                      <h1 class="font-bold">Contact</h1>
+                      <p>+63 905 325 8297</p>
+                    </div>
+                    <div>
+                      <h1 class="font-bold">Github</h1>
+                      <p>@itsmeDii</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="h-auto flex justify-center items-center p-10 bg-[#1a1a1a] sm:overflow-hidden"
+        >
+          <div class="w-5xl h-auto p-5 sm:w-full lg:w-5xl">
+            <h1
+              class="text-start text-2xl uppercase font-bold mb-1 text-white sm:text-center"
+            >
+              What do i do
+            </h1>
+            <div
+              class="grid grid-cols-3 gap-5 h-[40vh] p-5 sm:flex-col sm:flex sm:h-auto md:flex-cols lg:grid lg:grid-cols-3 lg:gap-5 lg:h-[40vh]"
+            >
+              <div
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                class="shadow-md rounded flex flex-col gap-2 justify-center items-center p-5 bg-white"
+              >
+                <img
+                  class="h-[100px] w-[100px]"
+                  src="./assets/images/frontend.png"
+                  alt=""
+                />
+                <h1 class="font-bold uppercase text-[#4635B1]">
+                  Frontend Development
+                </h1>
+                <p class="text-center">
+                  Skilled in developing responsive web applications and
+                  retrieving data through RESTful APIs.
+                </p>
+              </div>
+              <div
+               data-aos="fade-up"
+               data-aos-duration="2000"
+                class="shadow-md rounded flex flex-col gap-2 justify-center items-center p-5 bg-white"
+              >
+                <img
+                  class="h-[100px] w-[100px]"
+                  src="./assets/images/backend.png"
+                  alt=""
+                />
+                <h1 class="font-bold uppercase text-[#4635B1]">
+                  Backend Development
+                </h1>
+                <p class="text-center">
+                  Knowledgeable in backend technologies such as PHP and
+                  Express.js.
+                </p>
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-duration="3000"
+                class="shadow-md rounded flex flex-col gap-2 justify-center items-center p-5 bg-white"
+              >
+                <img
+                  class="h-[100px] w-[100px]"
+                  src="./assets/images/database.png"
+                  alt=""
+                />
+                <h1 class="font-bold uppercase text-[#4635B1]">
+                  Database Management
+                </h1>
+                <p class="text-center">
+                  Proficient in executing CRUD operations in MySQL databases and
+                  designing entity relationships.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="skill-set"
+          class="h-auto flex justify-center items-center p-10 sm:overflow-hidden"
+        >
+          <div class="w-5xl h-auto p-5 sm:w-full lg:w-5xl">
+            <h1
+              class="text-start text-2xl uppercase font-bold mb-1 sm:text-center"
+            >
+              Skills
+            </h1>
+            <div class="w-full h-auto gap-5 py-10">
+              <div id="skills" class="grid grid-cols-3 justify-center items-center gap-10 sm:grid-cols-2 lg:grid-cols-3">
+                <!-- Template -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="education"
+          class="h-auto flex justify-center items-center p-10 sm:overflow-hidden"
+        >
+          <div class="w-5xl rounded p-5 sm:w-full lg:w-5xl">
+            <div class="h-auto flex justify-center items-center">
+              <div   data-aos="fade-up" class="w-full">
+                <h1 class="text-2xl text-center font-bold uppercase mb-3">
+                  Education
+                </h1>
+                <div class="education-list mb-4">
+                  <div class="circle"></div>
+                  <div class="flex w-full justify-between items-center">
+                    <h1
+                      class="font-bold capitalize w-fit p-[3px] text-[#344CB7]"
+                    >
+                    Bachelor of Science in Information Technology
+                    </h1>
+                    <h2 class="font-semibold">2022 - Present</h2>
+                  </div>
+                  <h2>Currently 3rd Year College Student</h2>
+                  <p class="italic">University of Caloocan City South Campus</p>
+                </div>
+                <div class="education-list mb-4">
+                  <div class="circle"></div>
+                  <div class="flex w-full justify-between items-center">
+                    <h1
+                      class="font-bold capitalize w-fit p-[3px] text-[#344CB7]"
+                    >
+                    Computer Hardware Servicing
+                    </h1>
+                    <h2 class="font-semibold">2020 - 2022</h2>
+                  </div>
+                  <h2>Senior Highschool Graduate</h2>
+                  <p class="italic">Dr. Carlos S. Lanting College</p>
+                </div>
+                <div class="education-list mb-4">
+                  <div class="circle"></div>
+                  <div class="flex w-full justify-between items-center">
+                    <h1
+                      class="font-bold capitalize w-fit p-[3px] text-[#344CB7]"
+                    >
+                    Highschool
+                    </h1>
+                    <h2 class="font-semibold">2016 - 2020</h2>
+                  </div>
+                  <h2>Highschool Graduate</h2>
+                  <p class="italic">Talipapa Highschool</p>
+                </div>
+              </div>
+            </div>
+            <div></div>
+          </div>
+        </div>
+
+        <div
+          id="project"
+          class="h-auto flex justify-center items-center p-10 bg-[#F5F5F5] sm:overflow-hidden"
+        >
+          <div class="w-5xl rounded p-5 sm:w-full lg:w-5xl">
+            <h1 class="text-2xl text-center font-bold uppercase mb-3">
+              Project Experience
+            </h1>
+            <div
+              id="project-container"
+              class="w-full h-auto grid grid-cols-2 gap-5 sm:flex-col sm:flex lg:grid lg:grid-cols-2 lg:gap-5"
+            >
+              <!-- Template -->
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+   <script src="/app.js" type="module"></script>
+   <script src="/particles.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>
