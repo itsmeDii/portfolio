@@ -125,3 +125,54 @@ header {
     background-color: #4635B1;
     color: #ffffff;
 }
+
+@media (min-width: 480px) and (max-width: 639px) {
+    .navbar-hidden {
+        transform: translateY(-100%);
+        transition: transform 0.3s ease;
+    }
+    header{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    header {
+        transition: transform 0.3s ease;
+    }
+    .navbar{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .banner{
+        overflow: hidden;
+    }
+    .banner-info{
+        left: 15px;
+        top: 30rem;
+    }
+    #profile, #project{
+        overflow: hidden;
+    }
+    .profile-container, .services, #project-container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .profile-container img{
+        display: none;
+    }
+    .skills{
+        grid-template-columns: 1fr 1fr;
+    }
+    .skill-header{
+        text-align: center;
+    }
+    .piccko{
+        object-fit: cover;
+    }
+}
